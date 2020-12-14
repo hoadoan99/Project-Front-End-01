@@ -1,0 +1,89 @@
+:root {
+    /* CL  */
+    --primary-color: #F4623A;
+    --primary-color-hover: #F24516;
+    --text-color-gray: #D3CECA;
+    --text-color-gray-2: #D5D2B9;
+    --text-color-white: #FFFFFF;
+    --text-color: #212529;
+    /* BG  */
+    --bg-color-gray: #343A40;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+html {
+    /* font-size - 100% -> 16px  */
+    /* font-size: 62.5%; */
+    /* 1rem = 10px */
+    line-height: 1.6rem;
+    font-family: 'Open Sans', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* jquery  */
+
+.top .navbar .logo.color-black {
+    color: black;
+}
+
+.navbar {
+    transition: 0.5;
+    -webkit-transition: 0.5;
+    -moz-transition: 0.5;
+    -ms-transition: 0.5;
+    -o-transition: 0.5;
+}
+
+.navbar.white-bg {
+    background-color: #fff;
+}

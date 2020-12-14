@@ -1,0 +1,350 @@
+/* **************CSS HEADER*************** */
+
+.navbar.menu-top {
+    background: url("../images/bg__header.jpg") repeat-x;
+    padding: 0;
+}
+
+.menu-top .img-header {
+    margin-top: -5px;
+}
+
+ul.menu-top-right li.nav-item a.nav-link {
+    font-size: 12px;
+    line-height: 24px;
+    color: black;
+    font-weight: 500;
+    padding: 1px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul.menu-top-right li.nav-item.active a.nav-link {
+    color: var(--red-color);
+}
+
+ul.menu-top-right li.nav-item a.nav-link:hover {
+    color: var(--red-color);
+    text-decoration: underline;
+}
+
+
+/* **************END-CSS HEADER*************** */
+
+
+/* **************CSS BANNER*************** */
+
+.banner {
+    background-color: #f6f6f6;
+    padding-bottom: 60px;
+}
+
+.slide-banner {
+    padding-top: 11%;
+}
+
+.slide-banner-item {
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.slide-banner-item-bg {
+    background-color: #fff;
+    width: 230px;
+    border-bottom: 3px solid #C6C6C6;
+}
+
+.slide-banner .title {
+    font-size: 15px;
+    line-height: auto;
+    color: #050506;
+}
+
+.slide-banner .title,
+.slide-banner .desc {
+    margin: 10px;
+}
+
+.slide-banner .desc {
+    font-size: 12px;
+    line-height: auto;
+    color: #50504f;
+}
+
+.item-img {}
+
+.carousel-control-prev .carousel-btn-left {
+    background: url("../images/btn-left-.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10px;
+    position: absolute;
+    left: -18px;
+    top: 281px;
+}
+
+.carousel-control-prev {}
+
+.carousel-control-next .carousel-btn-right {
+    background: url("../images/btn-right.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 11px;
+    position: absolute;
+    right: 0px;
+    top: 281px;
+}
+
+
+/* **************END-CSS BANNER*************** */
+
+
+/* **************SERVICES BANNER*************** */
+
+.service {
+    background-color: #6b6b6b;
+    padding-bottom: 20px;
+}
+
+.service .title-see {
+    width: 300px;
+    height: 48px;
+    background-color: black;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    padding: 13px 0px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin: auto;
+    transform: translateY(-23px);
+    -webkit-transform: translateY(-23px);
+    -moz-transform: translateY(-23px);
+    -ms-transform: translateY(-23px);
+    -o-transform: translateY(-23px);
+}
+
+.service-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.service-title a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    margin-right: 13px;
+}
+
+.service-title a i {
+    font-size: 15px;
+    color: black;
+    margin: auto;
+}
+
+.service-title h3 {
+    font-size: 17px;
+    color: var(--primary-color);
+    line-height: 24px;
+}
+
+.service-desc {
+    font-size: 12px;
+    color: #e6e6e6;
+    line-height: 24px;
+    max-width: 204px;
+}
+
+
+/* **************END-SERVICES BANNER*************** */
+
+
+/* **************ABOUT BANNER*************** */
+
+.about {
+    background-color: #F1F1F1;
+}
+
+.about .title {
+    font-size: 20px;
+    color: #0f0f10;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.about p {
+    font-size: 13px;
+    color: var(--text-color);
+    line-height: 24px;
+    margin-top: 20px;
+    max-width: 298px;
+    font-weight: 400;
+}
+
+.about .about-blog p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.about .about-blog .title-red {
+    color: var(--red-color);
+    font-size: 13px;
+}
+
+.blog-wrap {
+    max-width: 260px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    /* padding-top: 20px; */
+}
+
+.blog-wrap:last-child {
+    border-bottom: none;
+}
+
+
+/* **************END-ABOUT *************** */
+
+
+/* **************EMAIL *************** */
+
+.email {
+    background-color: #1F1F1F;
+    /* padding-top: 2px; */
+    padding: 13px 0px 8px 0;
+}
+
+.email .email-title {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.email .place-title {
+    font-size: 14px;
+    color: #fff;
+    /* font-weight: 500; */
+    font-style: italic;
+}
+
+.email .form-submit {
+    width: 230px;
+}
+
+.email .form-submit input {
+    width: 100%;
+}
+
+.email .btn-submit {
+    width: 70px;
+    height: 31px;
+    background-color: #FFF600;
+    color: black;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote p {
+    width: 290px;
+    color: #f1f1f1;
+    font-weight: 500;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 8px;
+    padding-top: 10px;
+}
+
+.quote i {
+    color: var(--primary-color);
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+.quote span {
+    color: var(--primary-color);
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+/* **************END-EMAIL *************** */
+
+
+/* **************FOOTER *************** */
+
+.footer {
+    background-color: #3C3C3C;
+}
+
+.footer-title {
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+    font-family: " Lucida Sans";
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-item {
+    padding: 5px 5px;
+}
+
+.footer-link {
+    font-size: 13px;
+    line-height: 24px;
+    color: #c0c0c0;
+    text-decoration: none;
+}
+
+li.footer-item a.footer-link:hover {
+    text-decoration: none;
+    color: #888383;
+}
+
+p.desc {
+    font-size: 13px;
+    line-height: 24px;
+    color: #c0c0c0;
+    /* text-decoration: none; */
+}
+
+.footer-socials a i {
+    font-size: 34px;
+    margin-right: 5px;
+    color: white;
+}
+
+.desc.desc-1 {
+    max-width: 295px;
+}
+
+.footer-copyright {
+    font-size: 13px;
+    line-height: 24px;
+    color: #747474;
+}
+
+
+/* **************END-FOOTER *************** */

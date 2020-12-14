@@ -1,0 +1,27 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #EC6952;
+    --footer-color: #7D9AB4;
+    --footer-btn-color: #5D80A1;
+    --font-roboto: "Roboto Slab", arial, sans-serif;
+}
+
+html,
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #444;
+    /* font-size: 16px; */
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    outline: none;
+}
+
+.navbar .navbar-brand.header__logo.color-primary {
+    color: var(--primary-color);
+    background-color: #F8F9FA;
+}
