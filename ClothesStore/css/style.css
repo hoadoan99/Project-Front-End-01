@@ -1,0 +1,277 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* -------------------------------------------------Menu--------------------------------------- */
+a{
+	text-decoration: none;	
+	color: #696969;
+}
+p{
+	font-size: 18px;
+}
+a.logo{
+	
+	font-size: 50px;
+	font-family: 'Dancing Script', cursive;
+	text-transform: uppercase;
+
+}
+a:hover,a:hover p{
+	color: #818753;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+/* Menu */
+.menu{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;	
+}
+.menu ul li{
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+.menu img{
+	margin:0px 15px -20px;
+}
+.menu img:hover{
+	opacity: 0;
+}
+/* -------------------------Slide------------------------------------ */
+.slide{
+	margin-top: 30px;
+	position: relative;
+}
+.slide .left{
+	width: 400px;
+	position: absolute;
+	left: 75px;
+	top: 320px;
+}
+.slide .left h2{
+	font-size: 80px;
+	color: #484545;
+}
+.left p{
+	margin-top: 20px;
+}
+.btn{
+	padding:12px 55px;
+	background-color: #758dba;
+	border-radius: 50px;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	margin-top: 20px;
+
+}
+.btn:hover{
+	background-color: #464444;
+}
+.slide .right{
+	position: absolute;
+	bottom: 100px;
+	right: 90px;
+}
+.hidden{
+	background-color: rgb(0, 0, 0,0);
+	color: #fff;
+	margin-right: 20px;
+	border: none;
+	font-size: 40px;
+	cursor: pointer;
+}
+.hidden:hover{
+	color: #464444;
+}
+
+/* __________________________________banner1_________________________________________ */
+.banner1, .banner2{
+	margin-top: 20px;
+}
+.banner-left{
+	width: 680px;
+	height: 590px;
+	margin-right: 20px;
+	float: left;
+	background-image: url('../images/banner_3.jpg');
+	background-size: cover;
+	position: relative;
+}
+.banner-right{
+	width: 500px;
+	height: 700px;
+	float: left;
+	background-image: url('../images/banner_4.jpg');
+	background-size: cover;
+	position: relative;
+}
+.text1{
+	position: absolute;
+	left: 440px;
+	bottom: 75px;
+	font-size: 60px;
+	color: #484545;
+}
+.view1{
+	position: absolute;
+	left: 440px;
+	bottom: 45px;
+	text-transform: uppercase;	
+}
+.text2{
+	position: absolute;
+	left: 30px;
+	top: 155px;
+	font-size: 60px;
+	color: #484545;
+}
+.view2{
+	position: absolute;
+	left: 30px;
+	top: 311px;
+	text-transform: uppercase;	
+}
+/* ________________________________Content_______________________________ */
+#title{
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+.sp, .name, .price, .buy{
+	width: 280px;
+	margin-left: 20px;
+	float: left ;
+}
+.sp:first-child, .name:first-child, .price:first-child, .buy:first-child {
+	margin-left: 0;
+}
+.sp {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.sp img{
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+.sp img:hover{
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+}
+.name p{
+	color: #464444;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.price{
+	font-size: 40px;
+	width: 285px;
+	text-align: center;
+	font-weight: bold;
+	color: #818753;
+	margin-bottom: 20px;
+}
+.price span{
+	font-size: 18px;
+	color: #818753;
+}
+.buy{
+	text-align: center;
+	margin-bottom: 20px;
+}
+/* __________________________________Banner-2__________________________________ */
+#banner-1{
+	background-image: url('../images/banner_1.jpg');
+	background-repeat: no-repeat;
+	width: 680px;
+	height: 350px;
+	float: left;
+	margin-right: 20px;
+	position: relative;
+}
+#banner-2{
+	background-image: url('../images/banner_2.jpg');
+	width: 500px;
+	height: 470px;
+	float: left;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.text3{
+	position: absolute;
+	left: 495px;
+    top: 125px;
+	font-size: 60px;
+	color: #484545;
+}
+.view3{
+	position: absolute;
+	left: 495px;
+    top: 273px;
+	text-transform: uppercase;	
+}
+.text4{
+	position: absolute;
+	left: 368px;
+	top: 129px;
+	font-size: 60px;
+	color: #484545;
+}
+.view4{
+	position: absolute;
+	left: 380px;
+	top: 290px;
+	text-transform: uppercase;	
+}
+/* _________________________________________Footer_____________________________________ */
+.about{
+	width: 400px;
+	float: left;
+}
+.about #left{
+	width: 70px;
+	height: 38px;
+	margin-top: 15px;
+	margin-right: 20px;
+	float: left;
+}
+.about #right{
+	font-size: 15px;
+	width: 245px;
+	color: #6C6666;
+	float: left;
+}
+.contact{
+	width: 300px;
+	float: left;
+}
+.contact p{
+	font-size: 16px;
+	margin-top: 10px;
+	color: #6C6666;
+}
+.contact span{
+	font-size: 20px;
+	font-weight: bold;
+}
+.link{
+	width: 500px;
+	float: left;
+}
+.link p{
+	font-size: 16px;
+	margin-top: 45px;
+	color: #6C6666;
+}
