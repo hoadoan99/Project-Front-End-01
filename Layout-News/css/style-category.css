@@ -1,0 +1,425 @@
+body{
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+/*Header*/
+#header{
+	border-bottom: 1px solid #9C9C9C;
+}
+
+#logo{
+	padding: 11px 47px 15px 0px;
+}
+
+#main-menu>li{
+	float: left;
+}
+
+#main-menu>li>a{
+	display: block;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #000000;
+	padding: 22px 20px;
+}
+
+#main-menu>li:hover>a{
+	background: #056209;
+	color: #FFFFFF;
+	transition: all 1s;
+}
+
+form#search{
+	padding: 11px 0px;
+	position: relative;
+}
+
+form#search input[type=text] {
+    padding: 9px;
+    font-size: 13px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    font-style: italic;
+    float: right;
+    width: 180px;
+}
+
+form#search button {
+    background: #ffffff00;
+    color: #a3a3a3;
+    font-size: 15px;
+    border: none;
+    position: absolute;
+    top: 18px;
+    right: 10px;
+}
+/*End Header*/
+
+/*Container*/
+#container{
+	height: 30px;
+	background: #f3f3f3;
+	padding-top: 7px;
+}
+
+.container-home{
+	padding-right: 25px;
+	position: relative;
+	font-size: 11px;
+	font-weight: 500;
+	color: #000000;
+}
+
+.container-event{
+	font-size: 11px;
+	font-weight: 500;
+	color: #565656;
+}
+
+#container .container-home:before{
+	position: absolute;
+	content: "\f105";
+	font-family: FontAwesome;
+	left: 63px;
+	font-size: 15px;
+}
+/*End Container*/
+
+/*Wp-Content*/
+#wp-content{
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+/*Content*/
+#content{
+	width: 835px;
+	padding-right: 38px;
+	border-right: 1px solid #E1E1E1;
+}
+/*Cover*/
+#wp-cover{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #008643;
+}
+
+.cover{
+	padding-bottom: 30px;
+}
+
+.cover .title-cover{
+	width: 360px;
+}
+
+.cover .title-cover h1{
+	font-size: 24px;
+	color: #000000;
+	font-weight: 500;
+	line-height: 33px;
+	padding-bottom: 20px;
+}
+
+.cover .title-cover p{
+	font-size: 15px;
+	color: #3f3f3f;
+	font-weight: 400;
+	line-height: 27px;
+	text-align: justify;
+}
+
+.list-cover ul li{
+	margin-bottom: 20px;
+}
+
+.list-cover-left{
+	width: 390px;
+}
+
+.list-cover-left h1{
+	width: 250px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	color: #000000;
+}
+
+.list-cover-right{
+	width: 372px;
+}
+
+.list-cover-right h1{
+	width: 232px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	color: #000000;
+}
+/*End Cover*/
+
+/*Wp-Feature*/
+#wp-feature{
+	padding-bottom: 55px;
+}
+
+.feature{
+	padding-top: 40px;
+}
+
+#wp-feature .title-feature{
+	width: 530px;
+	margin-top: -5px;
+}
+
+#wp-feature .title-feature h1{
+	font-size: 20px;
+	color: #000000;
+	font-weight: 400;
+	line-height: 26px;
+	padding-bottom: 5px;
+}
+
+#wp-feature .title-feature span{
+	font-size: 12px;
+	color: #959595;
+	font-weight: 400;
+	line-height: 1.2;
+	display: block;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	position: relative;
+}
+
+#wp-feature .title-feature span:before{
+	position: absolute;
+	content: "\f017";
+	font-family: "FontAwesome";
+	left: 0%;
+}
+
+#wp-feature .title-feature p{
+	font-size: 14px;
+	color: #464646;
+	font-weight: 400;
+	line-height: 24px;
+}
+/*End Wp-Feature*/
+
+/*Wp-direction*/
+#wp-direction ul.direction{
+	justify-content: center;
+	display: flex;
+}
+
+#wp-direction .direction li{
+	float: left;
+	width: 35px;
+    height: 35px;
+    border: 1px solid #C0C0C0;
+    text-align: center;
+    margin-left: 8px;
+    padding-top: 10px;
+}
+
+#wp-direction .direction .title-direction{
+	border: none;
+	margin-right: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+}
+
+#wp-direction .direction li a{
+	color: #000000;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+#wp-direction .direction .right{
+	position: relative;
+}
+
+#wp-direction .direction .right:before{
+	position: absolute;
+	content: "\f105";
+	font-family: "FontAwesome";
+	font-size: 15px;
+}
+
+#wp-direction .direction li:hover{
+	background: #01a050;
+}
+
+#wp-direction .direction li:hover>a{
+	color: #ffffff;
+}
+/*End Wp-direction*/
+/*End Content*/
+
+/*Sidebar*/
+#sidebar{
+	width: 335px;
+	padding-left: 30px;
+}
+
+.banner-ads-1{
+	margin-bottom: 50px;
+}
+
+h1.news-much{
+	font-size: 21px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.list-news-much{
+	border-top: 1px solid #01a050;
+}
+
+.list-news-much{
+	padding: 20px 0px 30px ;
+}
+
+.list-news-much li {
+	margin-bottom: 20px;
+}
+
+.list-news-much .post-title{
+	color: #000000;
+	font-weight: 500;
+	line-height: 20px;
+	padding-left: 20px;
+	width: 174px;
+	float: right;
+}
+/*End Sidebar*/
+
+/*Footer*/
+#footer{
+	height: 345px;
+	background: #01a050;
+	padding-top: 45px;
+}
+
+#footer .widget {
+	
+}
+
+#footer .widget-head{
+	font-size: 21px;
+	color: #ffffff;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+
+#footer .widget-content{
+	font-size: 15px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+#footer .widget-content .mail{
+	position: relative;
+	padding-left: 30px;
+	padding-top: 20px;
+	display: block;
+}
+
+#footer .widget-content .mail:before{
+	content: "\f0e0";
+	position: absolute;
+	font-family: FontAwesome;
+	left: 0px;
+}
+
+#footer .widget-content .phone{
+	position: relative;
+	padding-left: 30px;
+}
+
+#footer .widget-content .phone:before{
+	content: "\f095";
+	position: absolute;
+	font-family: FontAwesome;
+	left: 0px;
+}
+
+
+.widget-category{
+	float: left;
+	width: 120px;
+	margin-left: 75px;
+	margin-right: 110px;
+}
+
+.widget-category .widget-content ul li{
+	margin-bottom: 20px;
+}
+
+.widget-category .widget-content a{
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	position: relative;
+	padding-left: 24px;
+}
+
+.widget-category .widget-content a:hover{
+	color: #1800FF;
+	transition: all 1s;
+}
+
+.widget-category .widget-content a:before{
+	content: "\f105";
+	position: absolute;
+	font-family: FontAwesome;
+	left: 0px;
+}
+
+
+.widget-news{
+	float: left;
+	width: 315px;
+	margin-right: 27px;
+}
+
+.widget-news .widget-content ul li{
+	margin-bottom: 20px;
+}
+
+.widget-news .widget-content a{
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	position: relative;
+	padding-left: 20px;
+}
+
+.widget-news .widget-content a:hover{
+	color: #1800FF;
+	transition: all 1s;
+}
+
+.widget-news .widget-content a:before{
+	content: "\f105";
+	position: absolute;
+	font-family: FontAwesome;
+	left: 0px;
+}
+/*End Footer*/
+
+#copyright{
+	text-align: center;
+	height: 45px;
+	padding: 15px 0px;
+}
+
+
+#copyright p{
+	color: #454545;
+	font-weight: 400;
+}

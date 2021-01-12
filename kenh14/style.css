@@ -1,0 +1,33 @@
+*{}
+
+.menu a {
+    color: white;
+    padding: 5px 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.menu a:hover{
+	text-decoration: none;
+	color: black;
+}
+.menu {
+    height: 43px;
+    line-height: 43px;
+    background: #ad1c22;
+    color: white;
+    /* padding: 3px 0; */
+}
+
+.banner{
+	background: url("./images/banner.PNG");
+	height: 129px;
+	background-repeat: no-repeat;
+	/*margin: 0 auto;*/
+	background-size: contain;
+}
+.content__right-mid{
+	margin:8px 0 ;
+}

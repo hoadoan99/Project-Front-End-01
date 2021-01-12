@@ -1,0 +1,59 @@
+* {
+    /* css dev  */
+}
+
+.click {
+    padding: 17px 16px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.click i.fas {
+    font-size: 15px;
+}
+
+.click i.fab {
+    font-size: 15px;
+}
+
+.show {
+    position: absolute;
+    width: 200px;
+    font-size: 12px;
+    right: 12px;
+    top: 44px;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.showContent {
+    opacity: 1;
+    visibility: visible;
+}
+
+.show:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -16px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: white;
+}
+
+._1khoi {
+    float: left;
+    position: relative;
+}
+
+.thanhxanh {
+    height: 48px;
+    background-color: #3b5998;
+    padding-left: 700px;
+}
+
+.btn-white {
+    color: white;
+}
