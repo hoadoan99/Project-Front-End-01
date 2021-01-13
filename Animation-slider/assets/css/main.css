@@ -1,0 +1,215 @@
+/*https://themes.muffingroup.com/be/webdesign/#*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+.wrapper-content{
+	position: relative;
+	height: 100%;
+}
+/*Button-slide */
+.button-slider ul li {
+    display: inline-block;
+    border: 1px solid gray;
+    text-indent: -9999px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s linear;
+    margin: 0 5px;
+}
+.button-slider ul li:hover,
+.button-slider ul li.button--active
+ {
+    background-color: gray;
+}
+
+/*.buton-slider ul li.active{
+
+}*/
+.button-slider ul {
+    display: inline;
+}
+.button-slider {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%;);
+    z-index: 10;
+}
+
+/*Slide CSS-----------------------------*/
+.slides{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.slide-list{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.slide-items{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+	opacity: 0;
+}
+.slide-items.slide-items--active{
+	opacity: 1;
+}
+.slide_1{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.slide_1-img{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+.coverbot1{
+	position: absolute;
+	top: -70%;
+	opacity: 0;
+}
+.coverbot2{
+	position: absolute;
+	top: -45%;
+	opacity: 0;
+}
+.covertop{
+	position: absolute;
+	top: -25%;
+	right: 0;
+	opacity: 0;
+}
+.slide-wrapper{
+	position: absolute;
+	z-index: 3;
+	top: 0;
+	width: 26%;
+	top: 22%;
+	left: 8%;
+	color: #fff;
+}
+.slide-wrapper h2{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 90px;
+	font-weight: 100;
+}
+.slide-wrapper small{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ffffff87;;
+}
+.slide-wrapper p{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 14px;
+	color: #ffffff9e;
+}
+.slide-wrapper .separate{
+	background: #fff;
+	width: 22%;
+	height: 2px;
+    margin-top: 18px;
+    margin-bottom: 28px;
+}
+.slide-wrapper .btn-slide{
+	border-color: #fff;
+	color: #fff;
+	font-size: 13px;
+	font-family: 'Alegreya Sans', sans-serif;
+	margin-top: 28px;
+}
+.slide-wrapper .btn-slide:hover{
+	background-color: #ffffff30;
+	border-color: #fff;
+}
+
+/*slide animation */
+.slide-items.slide-items--active .coverbot1{
+	animation: coverComeIn 0.5s forwards;
+}
+.slide-items.slide-items--active .coverbot2{
+	animation: coverComeIn2 0.5s 0.1s forwards;
+}
+.slide-items.slide-items--active .covertop{
+	animation: coverComeIn3 0.5s 0.1s forwards;
+}
+@-webkit-keyframes coverComeIn {
+	from{
+		transform: translateX(-100%) translateY(100%);
+		opacity: 0;
+	}
+	to{
+		transform: translateX(0) translateY(0);
+		opacity: 0.8;
+	}
+}
+@-webkit-keyframes coverComeIn2 {
+	from{
+		transform: translateX(-100%) translateY(100%);
+		opacity: 0;
+	}
+	to{
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+@-webkit-keyframes coverComeIn3 {
+	from{
+		transform: translateX(100%) translateY(-100%);
+		opacity: 0;
+	}
+	to{
+		transform: translateX(0) translateY(0);
+		opacity: 0.8;
+	}
+}
+
+/*Text animation */
+.slide-items.slide-items--active .slide-wrapper h2,
+.slide-items.slide-items--active .slide-wrapper small,
+.slide-items.slide-items--active .slide-wrapper .separate,
+.slide-items.slide-items--active .slide-wrapper p,
+.slide-items.slide-items--active .slide-wrapper .btn-slide{
+	opacity: 0;
+	animation:textComeIn 0.8s forwards;
+}
+
+@-webkit-keyframes textComeIn {
+	from{
+		transform: translateX(-120px);
+		opacity: 0;
+	}
+	to{
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.slide-items.slide-items--active .slide-wrapper small{
+	animation-delay: 0.2s;
+}
+.slide-items.slide-items--active .slide-wrapper .separate{
+	animation-delay: 0.3s;
+}
+.slide-items.slide-items--active .slide-wrapper p{
+	animation-delay: 0.4s;
+}
+.slide-items.slide-items--active .slide-wrapper .btn-slide{
+	animation-delay: 0.5s;
+}
+/*//80*/
